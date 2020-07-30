@@ -2,13 +2,13 @@ package armory;
 
 public class PlateArmour {
 
-    private double damageReducer;
+    private int increaseHP;
 
-    public PlateArmour(double damageReducer){
-        this.damageReducer = damageReducer;
+    public PlateArmour(int increaseHP){
+        this.increaseHP = increaseHP;
     }
 
-    public double getDamageReducer(){
-        return damageReducer;
+    public int getIncreaseHP(){
+        return increaseHP;
     }
 }

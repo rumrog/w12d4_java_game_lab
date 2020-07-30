@@ -3,9 +3,10 @@ package players;
 import actions.IAttack;
 import armory.Armory;
 import enemies.Enemy;
+import rooms.TreasureRoom;
 import spells.Spells;
 
-public abstract class Player implements IAttack {
+public abstract class Player implements IAttack{
 
     protected String name;
     protected int healthPoints;
@@ -41,7 +42,8 @@ public abstract class Player implements IAttack {
         enemy.takeDamage(spell.getDamageToDeal());
     }
 
-
-
+    public void collectTreasure(Player player, TreasureRoom treasure){
+        player.treasureChest += treasure.allowToCollectTreasure();
+    }
 
 }

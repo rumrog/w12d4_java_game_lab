@@ -1,4 +1,23 @@
 package rooms;
 
-public class EnemyRoom {
+import enemies.Enemy;
+
+import java.util.ArrayList;
+
+public class EnemyRoom extends Room{
+
+    private ArrayList<Enemy> enemies;
+
+    public EnemyRoom(){
+        this.enemies = new ArrayList<Enemy>();
+    }
+
+    public void addEnemyToRoom(Enemy enemy){
+        this.enemies.add(enemy);
+    }
+
+    public int countEnemies(){
+        return this.enemies.size();
+    }
+
 }

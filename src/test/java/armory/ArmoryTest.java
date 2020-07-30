@@ -19,7 +19,7 @@ public class ArmoryTest {
         club = new Club(10);
         pickaxe = new Pickaxe(10);
         sword = new Sword(10);
-        plateArmour = new PlateArmour(0.6);
+        plateArmour = new PlateArmour(2);
 
     }
 
@@ -50,7 +50,7 @@ public class ArmoryTest {
     }
 
     @Test
-    public void canGetDamageReducer(){
-        assertEquals(0.6, plateArmour.getDamageReducer(),0.1);
+    public void armourHasHPincrement(){
+        assertEquals(2, plateArmour.getIncreaseHP(),0.1);
     }
 }

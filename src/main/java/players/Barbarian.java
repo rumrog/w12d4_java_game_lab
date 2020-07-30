@@ -1,6 +1,7 @@
 package players;
 
 import armory.Armory;
+import enemies.Enemy;
 
 import java.util.ArrayList;
 
@@ -15,5 +16,10 @@ public class Barbarian extends MeleeCharacter {
 
     public ArrayList<Armory> getArmory(){
         return this.armory;
+    }
+
+    public String ripEnemiesHeadOff(Enemy enemy){
+        enemy.takeDamage(enemy.checkHealth());
+        return "EARUGHHHH!!";
     }
 }

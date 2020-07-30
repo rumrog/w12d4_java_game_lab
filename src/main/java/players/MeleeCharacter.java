@@ -27,6 +27,4 @@ public abstract class MeleeCharacter extends Player implements IAttack {
         return this.armory.size();
     }
 
-
-
 }

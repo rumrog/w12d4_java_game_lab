@@ -8,6 +8,7 @@ import org.junit.Test;
 import java.lang.reflect.Array;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class BarbarianTest {
 
@@ -48,6 +49,12 @@ public class BarbarianTest {
     public void canAttack(){
         barbarian.attack(sword, orc);
         assertEquals(10, orc.checkHealth());
+    }
+
+    @Test
+    public void canRipEnemiesHeadOff(){
+        assertEquals("Eardfasd", barbarian.ripEnemiesHeadOff(orc));
+        assertEquals(0, orc.checkHealth());
     }
 
 }

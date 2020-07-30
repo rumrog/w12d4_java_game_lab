@@ -2,6 +2,7 @@ package players;
 
 import org.junit.Before;
 import org.junit.Test;
+import rooms.TreasureRoom;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,10 +11,12 @@ public class PlayerTest {
     Player player;
     MeleeCharacter meleeCharacter;
     BarbarianTest barbarian;
+    TreasureRoom treasureRoom;
 
     @Before
     public void before(){
         player = new Barbarian("Conan", 500, 0);
+        treasureRoom = new TreasureRoom(200);
     }
 
     @Test
@@ -29,5 +32,11 @@ public class PlayerTest {
     @Test
     public void hasTreasureChest(){
         assertEquals(0, player.getTreasureChest());
+    }
+
+    @Test
+    public void canCollectTreasure(){
+        player.collectTreasure(player, treasureRoom);
+        assertEquals(200, player.getTreasureChest());
     }
 }

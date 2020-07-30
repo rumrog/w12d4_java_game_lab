@@ -2,46 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="207fb4c2-c491-4f44-8fae-f6d1edb5a0bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/IAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/IHeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/IProtect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/Armory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/Pickaxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/PlateArmour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/armory/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemies/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemies/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/MeleeCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/Fireball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/LightRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/LightingStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/Ogre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spells/Spells.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/armory/ArmoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/enemies/EnemyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/players/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/healingTools/HealingTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/healingTools/Herbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/healingTools/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/healingTools/HealingToolsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/healingTools/PotionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/players/ClericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/players/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/players/WarlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rooms/EnemyRoomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rooms/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/IAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/IHeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/IHeal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/armory/PlateArmour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/armory/PlateArmour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/MagicCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/MeleeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/MeleeCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/EnemyRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rooms/TreasureRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spells/Fireball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/armory/ArmoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/armory/ArmoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/players/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/players/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/IAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actions/IHeal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/armory/PlateArmour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/armory/PlateArmour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enemies/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Barbarian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Cleric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Dwarf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/MagicCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/MeleeCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/EnemyRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rooms/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rooms/TreasureRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spells/Fireball.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spells/Fireball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/armory/ArmoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/armory/ArmoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/players/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/players/BarbarianTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in w12d3_java_game_lab">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="All in w12d3_java_game_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d3_java_game_lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarbarianTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.armourIncreasesHp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d3_java_game_lab" />
       <extension name="coverage">
         <pattern>
@@ -111,45 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="players" />
-      <option name="MAIN_CLASS_NAME" value="players.BarbarianTest" />
-      <option name="METHOD_NAME" value="canAttack" />
+      <option name="MAIN_CLASS_NAME" value="players.KnightTest" />
+      <option name="METHOD_NAME" value="armourIncreasesHp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnemyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="w12d3_java_game_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enemies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="enemies" />
-      <option name="MAIN_CLASS_NAME" value="enemies.EnemyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnemyTest.canAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="w12d3_java_game_lab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enemies.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="enemies" />
-      <option name="MAIN_CLASS_NAME" value="enemies.EnemyTest" />
-      <option name="METHOD_NAME" value="canAttack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d3_java_game_lab" />
       <extension name="coverage">
         <pattern>
@@ -159,19 +135,49 @@
       </extension>
       <option name="PACKAGE_NAME" value="players" />
       <option name="MAIN_CLASS_NAME" value="players.PlayerTest" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.canCollectTreasure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_game_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="players.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="players" />
+      <option name="MAIN_CLASS_NAME" value="players.PlayerTest" />
+      <option name="METHOD_NAME" value="canCollectTreasure" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreasureRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d3_java_game_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rooms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rooms" />
+      <option name="MAIN_CLASS_NAME" value="rooms.TreasureRoomTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.canCollectTreasure" />
         <item itemvalue="JUnit.All in w12d3_java_game_lab" />
-        <item itemvalue="JUnit.BarbarianTest.canAttack" />
-        <item itemvalue="JUnit.EnemyTest.canAttack" />
-        <item itemvalue="JUnit.EnemyTest" />
-        <item itemvalue="JUnit.PlayerTest.hasName" />
+        <item itemvalue="JUnit.TreasureRoomTest" />
+        <item itemvalue="JUnit.KnightTest.armourIncreasesHp" />
       </list>
     </recent_temporary>
   </component>
